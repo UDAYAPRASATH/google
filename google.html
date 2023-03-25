@@ -1,0 +1,518 @@
+<html>
+    <head>
+        <title>Google</title>
+    <style>
+   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* THIS IS FOR THE BODY CONTENTS*/
+body
+{
+    background-color: white;
+    
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+} 
+
+.logo
+{
+    
+    background:#0892d0  ;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    position: absolute;
+    top: 10px;
+    right:27px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+/* THIS IS FOR THE TOP POSITION*/
+.c
+{
+    font-size: 22px;
+    font-weight:bold;
+    color:white;
+ 
+    cursor: pointer;
+}
+
+.grid
+{
+    position:absolute; 
+    top:10px;
+    right:100px;
+    cursor: pointer;
+    text-decoration: underline;
+    color:#0073cf;
+
+}
+
+.gmail
+{
+    position:absolute;
+    top:0px;
+    right:250px;
+    margin-top:14px; 
+    font-size: small;
+    color: rgb(0,0,0,0.87);
+}
+
+.gmail:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    color:#0073cf;
+}
+
+.image
+{
+    position:absolute;
+    top:0px;
+    right:180px;
+    margin-top:14px; 
+    font-size: small;
+    color:rgb(0,0,0,0.87)
+}
+
+.image:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    color:#0073cf;
+}
+
+/*THIS IS FOR THE GOOGLE FONT STYLE */
+
+h1
+{
+    font-size: 92px;    
+}
+
+.g
+{
+    color:#4285F4;
+    position:absolute;
+    margin: 0%;
+    top:180px; 
+    left:560px;
+}
+
+.o
+{
+    color: #DB4437; 
+    position:absolute; 
+    margin: 0%; 
+    top:180px; 
+    left:620px;
+}
+
+.o1
+{
+    color: #F4B400;
+    position:absolute; 
+    margin: 0%; 
+    top:180px; 
+    left:670px;
+}
+
+.g1
+{
+    color: #4285F4;
+    position:absolute; 
+    margin: 0%;
+    top:180px; 
+    left:720px;
+}
+
+.l{
+    color: #0F9D58;
+    position:absolute; 
+    margin: 0%; 
+    top:180px; 
+    left:770px;
+}
+
+.e
+{
+    color: #DB4437;
+    position:absolute; 
+    margin: 0%; 
+    top:180px; 
+    left:787px;
+    transform: rotate(-25deg);
+}
+
+/* THIS FOR THE FORM ELEMENTS STYLE*/
+
+
+input
+{
+    border-radius: 25px;
+    border:solid 1px #D3D3D3;
+    outline:none;
+    width: 580px;
+    height: 50px;
+    padding-left:60px;
+    font-size:inherit;
+    position:absolute;
+    top:320px;
+    left:430px;
+}
+
+::-webkit-input-placeholder
+{
+    font-size:17px;
+}
+
+input:hover
+{
+box-shadow: 0px 0px 6px 1.5px#ccc;
+}
+
+.search
+{
+    position:absolute; 
+    top:335px;
+    left:450px;
+}
+
+.mic
+{
+    position:absolute;
+    top:335px; 
+    left:950px;
+}
+
+.button
+{
+    position:absolute; 
+    top:420px;
+    left:540px;
+    height:40px;
+    width: 150px; 
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius:4px ; 
+    color: #3c4043;
+}
+
+.button:hover
+{
+    box-shadow:0px 0px 5px 1.5px #ccc;
+}
+.lucky{
+position:absolute; 
+top:420px;
+left:710px;
+height:40px;
+width:170px; 
+background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-radius:4px ; 
+color: #3c4043;
+}
+.lucky:hover{
+box-shadow:0px 0px 5px 1.5px #ccc;
+}
+
+/* THIS IS FOR THE CONTAINER */
+.container{
+width: 565px;
+height: 200px;
+position:absolute;
+top:450px;
+left:390px;
+
+}
+.rect1{
+width:100px;
+height:120px;
+background-color: rgb(255,255,255);
+
+border-radius:14px;
+position: absolute;
+top:20px;
+left:30px;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.rect1:hover
+{
+background-color:#D3D3D3;
+}
+.rect2{
+width:100px;
+height:120px;
+background-color: rgb(255,255,255);
+
+position: absolute;
+top:20px;
+left:150px;
+border-radius:14px;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.rect2:hover
+{
+background-color:#D3D3D3;
+}
+.rect3{
+width:100px;
+height:120px;
+background-color: rgb(255,255,255);
+
+position: absolute;
+top:20px;
+border-radius:14px;
+left:270px;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.rect3:hover
+{
+background-color:#D3D3D3;
+}
+.rect4{
+width:100px;
+height:120px;
+background-color: rgb(255,255,255);
+
+border-radius:14px;
+position: absolute;
+top:20px;
+left:390px;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.rect4:hover
+{
+background-color:#D3D3D3;
+}
+.rect5{
+width:100px;
+height:120px;
+background-color: rgb(255,255,255);
+border-radius:14px;
+position: absolute;
+top:20px;
+left:520px;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.rect5:hover
+{
+background-color:#D3D3D3;
+}
+.circle1
+{
+width:50px;
+height:50px;
+border-radius:50%;
+background-color: rgb(241,243,244,1);
+display:flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.circle2
+{
+width:50px;
+height:50px;
+border-radius:50%;
+background-color: rgb(241,243,244,1);
+
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.circle3
+{
+width:50px;
+height:50px;
+border-radius:50%;
+background-color: rgb(241,243,244,1);
+
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.circle4
+{
+width:50px;
+height:50px;
+border-radius:50%;
+background-color: rgb(241,243,244,1);
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.circle5
+{
+width:50px;
+height:50px;
+border-radius:50%;
+background-color: rgb(241,243,244,1);
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+    </style>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+    
+      <div id="top">
+        <div class="logo">
+        <p class="c" onclick="my()">C</p> 
+        </div>  
+        <p class="gmail" onclick="myFunction()"><b>Gmail</b></p>
+        <p class="image"  onclick="myfunction()"><b>Images</b></p>
+        <p style="position:absolute;bottom:0px;right:0px">DESIGNED BY UDAYA</p>
+        <img src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png"  height="30px" width="30px" class="grid" onclick="myf()" >
+      </div>
+
+      <div id="font">
+        <h1 class="g"  >G</h1>
+        <h1 class="o"  >o</h1>
+        <h1 class="o1" >o</h1>
+        <h1 class="g1" >g</h1>
+        <h1 class="l"  >l</h1>
+        <h1 class="e"  >e</h1>
+      </div>
+
+      <div id="enter  ">
+        <form id="form">
+        <input type="text" placeholder="Search Google or type a URL" id="query" name="q">
+        <ion-icon name="search" class="search"></ion-icon>
+        <ion-icon name="mic-outline"  height="77px" width="28px" class="mic"></ion-icon>
+        <button type="submit" class="button" >Google search</button>
+        <button type="button" class="lucky" onclick="luck()">I'm Feeling Lucky</button>
+        </form>
+        <script src="googlejs.js"></script>
+      </div>
+ <div class="container" >
+
+  <div class="rect1" onclick="login()">
+    <p style="position:absolute; bottom:0px;font-family:Roboto,Arial,sans-serif;color: rgb(0,0,0,0.87);font-size: 13px;">Linked in</p>
+  <div class="circle1">
+   <div class="icon1">
+    <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+    </div>
+  </div>
+  </div>
+  
+  
+  <div class="rect2" onclick="myFunction()">
+    <p style="position:absolute; bottom:0px;font-family:Roboto,Arial,sans-serif;color: rgb(0,0,0,0.87);font-size: 13px;">Gmail</p>
+    <div class="circle2">
+      <div class="icon2">
+        <ion-icon name="mail" class="icon"></ion-icon>
+      </div>
+    </div>
+  </div>
+    
+    <div class="rect3" onclick="cls()">
+      <p style="position:absolute; bottom:0px;font-family:Roboto,Arial,sans-serif;color: rgb(0,0,0,0.87);font-size: 13px;">Classroom</p>
+      <div class="circle3">
+        <div class="icon3">
+          <ion-icon name="people-circle" class="icon"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="rect4" onclick="githu()">
+        <p style="position:absolute; bottom:0px;font-family:Roboto,Arial,sans-serif;color: rgb(0,0,0,0.87);font-size: 13px;">Github</p>
+        <div class="circle4">
+          <div class="icon4">
+            <ion-icon name="logo-github" class="icon"></ion-icon>
+          </div>
+        </div>
+      </div>
+
+        <div class="rect5" onclick="sorry()">
+          <p style="position:absolute; bottom:0px;font-family:Roboto,Arial,sans-serif;color: rgb(0,0,0,0.87);font-size: 13px;">Add shortcut</p>
+          <div class="circle5">
+            <div class="icon5">
+                 <p style="font-weight:-400; font-size:40px;color: rgb(0,0,0,0.8);">  + </p>         
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+</div>
+<script>
+  function myFunction() {
+    window.open("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox",'_blank');
+  
+}
+function myfunction() {
+  window.open("https://www.google.co.in/imghp?hl=en&tab=ri&ogbl",'_blank');
+}
+function my() {
+  window.open("https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.co.in/imghp%3Fhl%3Den%26tab%3Dri%26ogbl",'_blank');
+}
+function myf() {
+  window.open("https://www.google.co.in/intl/en/about/products?tab=ihtab%3Dri%26ogbl",'_blank');
+}
+function login(){
+  window.open("https://www.linkedin.com/",'_blank');
+}
+function githu(){
+  window.open("https://github.com/",'_blank');
+}
+function cls()
+{
+  window.open("https://classroom.google.com/c/NDgyNTI5MDc1MTgz",'_blank');
+}
+function sorry(){
+  alert("SORRY FOR THE INCONVINIENCE.")
+}
+function luck(){
+  window.open("https://www.google.com/doodles",'_blank');
+}
+
+const f = document.getElementById('form');
+const q = document.getElementById('query');
+const google = 'https://www.google.com/search?q=+';
+
+
+function submitted(event) {
+event.preventDefault();
+const url = google + '+' + q.value;
+const win = window.open(url, '_blank');
+win.focus();
+}
+
+f.addEventListener('submit', submitted);
+</script>
+    </body>
+</html>
